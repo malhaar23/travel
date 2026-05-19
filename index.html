@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top 10 Budget International Destinations for Indians — 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #fafaf7;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-muted: #5a5a55;
+    --ink-soft: #888880;
+    --border: rgba(0,0,0,0.08);
+    --border-strong: rgba(0,0,0,0.16);
+    --accent: #C77A2F;
+    --accent-bg: #FBEFDF;
+    --green: #3B6D11;
+    --green-bg: #EAF3DE;
+    --red: #A32D2D;
+    --red-bg: #FCEBEB;
+    --amber: #854F0B;
+    --amber-bg: #FAEEDA;
+    --teal: #0F6E56;
+    --teal-bg: #E1F5EE;
+    --purple: #534AB7;
+    --purple-bg: #EEEDFE;
+  }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.65; font-size: 15px; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 48px 32px 80px; }
+  .header { border-bottom: 1px solid var(--border-strong); padding-bottom: 28px; margin-bottom: 40px; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 12px; font-weight: 500; }
+  h1 { font-size: 34px; line-height: 1.2; font-weight: 500; letter-spacing: -0.01em; margin-bottom: 14px; color: var(--accent); }
+  .sub { font-size: 17px; color: var(--ink-muted); max-width: 720px; line-height: 1.55; }
+  .meta { margin-top: 20px; display: flex; gap: 24px; font-size: 13px; color: var(--ink-soft); flex-wrap: wrap; }
+  .meta span strong { color: var(--ink); font-weight: 500; }
+  h2 { font-size: 24px; font-weight: 500; margin: 56px 0 8px; letter-spacing: -0.005em; }
+  h2 .num { color: var(--ink-soft); font-weight: 400; margin-right: 12px; }
+  h3 { font-size: 18px; font-weight: 500; margin: 28px 0 10px; }
+  h4 { font-size: 14px; font-weight: 500; margin: 18px 0 8px; color: var(--ink); letter-spacing: 0.01em; }
+  p { margin-bottom: 14px; color: var(--ink); }
+  p.lead { font-size: 16px; color: var(--ink-muted); margin-bottom: 22px; }
+
+  .tldr { background: var(--card); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 22px 26px; margin: 24px 0 8px; }
+  .tldr h3 { margin-top: 0; font-size: 15px; color: var(--accent); letter-spacing: 0.02em; }
+  .tldr ul { padding-left: 18px; margin-top: 8px; }
+  .tldr li { margin-bottom: 6px; font-size: 14.5px; color: var(--ink); }
+
+  .country-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0 8px; }
+  .country-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px; }
+  .country-card .flag { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 6px; font-weight: 500; }
+  .country-card h3 { margin: 0 0 4px; font-size: 17px; }
+  .country-card .tag { font-size: 12.5px; color: var(--ink-muted); margin-bottom: 14px; line-height: 1.4; }
+  .country-card .stat-row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 13px; border-top: 1px solid var(--border); }
+  .country-card .stat-row:first-of-type { border-top: 0; }
+  .country-card .stat-row .k { color: var(--ink-soft); }
+  .country-card .stat-row .v { font-weight: 500; color: var(--ink); }
+
+  .pro-con { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 0 24px; }
+  .pc-box { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; }
+  .pc-box.pros { background: var(--green-bg); border-color: rgba(59,109,17,0.18); }
+  .pc-box.cons { background: var(--red-bg); border-color: rgba(163,45,45,0.16); }
+  .pc-box h4 { margin-top: 0; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; }
+  .pc-box.pros h4 { color: var(--green); }
+  .pc-box.cons h4 { color: var(--red); }
+  .pc-box ul { padding-left: 18px; margin: 0; }
+  .pc-box li { margin-bottom: 6px; font-size: 13.5px; line-height: 1.55; color: var(--ink); }
+
+  .cost-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 18px 22px; margin: 14px 0; }
+  .cost-card table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .cost-card th { text-align: left; padding: 8px 6px; color: var(--ink-soft); font-weight: 500; font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+  .cost-card td { padding: 8px 6px; border-bottom: 1px solid var(--border); }
+  .cost-card td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+  .cost-card tr:last-child td { border-bottom: 0; }
+  .cost-card tr.total td { border-top: 2px solid var(--border-strong); border-bottom: 0; padding-top: 10px; font-weight: 600; }
+
+  .compare-table { width: 100%; border-collapse: collapse; margin: 14px 0 28px; font-size: 13.5px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .compare-table th, .compare-table td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .compare-table th { background: rgba(0,0,0,0.025); font-weight: 500; font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-soft); }
+  .compare-table td:first-child { font-weight: 500; color: var(--ink); background: rgba(0,0,0,0.012); }
+  .compare-table tr:last-child td { border-bottom: 0; }
+
+  .pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11.5px; font-weight: 500; letter-spacing: 0.02em; }
+  .pill.green { background: var(--green-bg); color: var(--green); }
+  .pill.red { background: var(--red-bg); color: var(--red); }
+  .pill.amber { background: var(--amber-bg); color: var(--amber); }
+  .pill.blue { background: var(--accent-bg); color: var(--accent); }
+  .pill.teal { background: var(--teal-bg); color: var(--teal); }
+  .pill.purple { background: var(--purple-bg); color: var(--purple); }
+
+  .verdict { background: linear-gradient(180deg, #fff, #fbfaf5); border: 1px solid var(--border-strong); border-radius: 12px; padding: 28px 30px; margin: 32px 0; }
+  .verdict h2 { margin-top: 0; }
+  .verdict-grid { display: grid; grid-template-columns: 80px 1fr; gap: 18px; align-items: start; margin-top: 18px; }
+  .rank-num { font-size: 44px; font-weight: 500; color: var(--ink-soft); text-align: center; line-height: 1; padding-top: 4px; }
+  .rank-num.gold { color: #B8870E; }
+  .rank-num.silver { color: #6F6F6B; }
+  .rank-num.bronze { color: #8C5524; }
+  .verdict-grid + .verdict-grid { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--border); }
+  .verdict-grid h3 { margin: 0 0 6px; font-size: 17px; }
+  .verdict-grid p { margin-bottom: 6px; font-size: 14.5px; color: var(--ink-muted); }
+
+  .timeline { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 22px 26px; margin: 16px 0; }
+  .timeline-item { display: grid; grid-template-columns: 110px 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px dashed var(--border); }
+  .timeline-item:last-child { border-bottom: 0; }
+  .timeline-item .when { font-size: 12px; color: var(--accent); font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; padding-top: 2px; }
+  .timeline-item .what { font-size: 14px; line-height: 1.55; }
+  .timeline-item .what strong { font-weight: 500; }
+
+  .footer-note { margin-top: 56px; padding: 18px 22px; background: rgba(0,0,0,0.025); border-radius: 8px; font-size: 12.5px; color: var(--ink-muted); line-height: 1.55; }
+
+  @media (max-width: 760px) {
+    .wrap { padding: 32px 18px 64px; }
+    .country-grid { grid-template-columns: 1fr; }
+    .pro-con { grid-template-columns: 1fr; }
+    .compare-table { font-size: 12px; }
+    .compare-table th, .compare-table td { padding: 8px 6px; }
+    h1 { font-size: 26px; }
+    .verdict-grid { grid-template-columns: 60px 1fr; gap: 12px; }
+    .rank-num { font-size: 32px; }
+    .timeline-item { grid-template-columns: 1fr; gap: 2px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="header">
+  <div class="eyebrow">Travel report · prepared for Indian passport holders</div>
+  <h1>Top 10 budget international destinations for Indians</h1>
+  <p class="sub">A practical 2026 guide to the cheapest countries you can fly to from India — ranked by total trip cost, visa friction, safety, and the experience-per-rupee you actually get.</p>
+  <div class="meta">
+    <span><strong>Profile:</strong> First-time or seasoned Indian traveller</span>
+    <span><strong>Target trip:</strong> 7–10 days, mid-range comfort</span>
+    <span><strong>Budget:</strong> ₹40K–₹90K all-in (flight + stay + food)</span>
+  </div>
+</header>
+
+<section>
+  <div class="tldr">
+    <h3>The 30-second answer</h3>
+    <ul>
+      <li><strong>Cheapest overall: Nepal &amp; Sri Lanka</strong> — sub-₹35K all-in for a week. No visa required for Nepal; ETA-only for Sri Lanka. Both border India, so flights are cheap year-round.</li>
+      <li><strong>Best value-for-rupee: Vietnam &amp; Thailand</strong> — under ₹50K for 7 days including flight. E-visa for Vietnam, visa-free for Indians to Thailand (active 2024 onward, check current status).</li>
+      <li><strong>Most underrated: Georgia &amp; Azerbaijan</strong> — European feel at Southeast Asian prices. E-visa, beautiful mountains, cheap wine, ₹50–60K for a week.</li>
+      <li><strong>Skip Bali in 2026</strong> unless you really want it — visa-on-arrival fees + flight cost has pushed it past ₹70K, and Vietnam delivers a similar tropical experience for half the price.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">01</span>The 10 destinations at a glance</h2>
+  <p class="lead">All costs are total trip estimates in INR for one person, 7 days, mid-range traveller (hostel/budget hotel, mix of local + tourist food, public transport). Flight estimates are round-trip economy ex-Delhi/Mumbai booked 4–8 weeks out.</p>
+
+  <div class="country-grid">
+    <div class="country-card" style="border-top: 3px solid #DC143C;">
+      <div class="flag">01 · Nepal</div>
+      <h3>The unbeatable starter trip</h3>
+      <div class="tag">Mountains, momos, and free entry. Visa-free for Indians, INR widely accepted.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹25–30K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹10–14K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹2K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">None required</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Oct–Apr</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #FFB300;">
+      <div class="flag">02 · Sri Lanka</div>
+      <h3>Beaches, tea, ruins, budget-friendly</h3>
+      <div class="tag">Easy ETA, English widely spoken, currency cheap post-2022 crisis.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹30–38K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹14–18K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹2–2.5K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">ETA · $50</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Dec–Mar</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #DA251D;">
+      <div class="flag">03 · Vietnam</div>
+      <h3>SE Asia's best-priced highlight reel</h3>
+      <div class="tag">Halong Bay, Hoi An, Saigon. Street food is world-class; e-visa is painless.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹40–48K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹20–26K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹2.5–3K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">E-visa · $25</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Nov–Apr</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #00247D;">
+      <div class="flag">04 · Thailand</div>
+      <h3>The classic, now visa-free</h3>
+      <div class="tag">Bangkok, Phuket, Pai, Krabi. Most-visited country by Indians for a reason.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹42–55K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹18–24K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹3–3.5K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">Visa-free 60 days</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Nov–Feb</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #CC092F;">
+      <div class="flag">05 · Cambodia</div>
+      <h3>Angkor Wat &amp; raw beauty</h3>
+      <div class="tag">Cheaper than Thailand once you land. Combine with Vietnam for a 2-country trip.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹38–46K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹22–28K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹2–2.5K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">E-visa · $30</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Nov–Mar</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #CC0000;">
+      <div class="flag">06 · Malaysia</div>
+      <h3>KL, Langkawi, Borneo — visa-free</h3>
+      <div class="tag">Visa-free for Indians (extended through 2026). Great food, multicultural, easy English.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹45–55K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹20–26K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹3–3.5K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">Visa-free 30 days</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Mar–Sep</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #FF0000;">
+      <div class="flag">07 · Indonesia (Bali)</div>
+      <h3>Iconic, but no longer the cheapest</h3>
+      <div class="tag">Visa-on-arrival, rising tourist tax, but Bali + Ubud still delivers a unique trip.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹55–70K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹28–35K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹3–4K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">VoA · $35 + tax</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Apr–Oct</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #E8112D;">
+      <div class="flag">08 · Georgia</div>
+      <h3>European feel, SE Asian prices</h3>
+      <div class="tag">Tbilisi, Kazbegi, Batumi. Mountains, wine, old churches. Stunning value.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹50–62K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹28–34K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹3–3.5K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">E-visa · $20</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">May–Oct</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #00B5E2;">
+      <div class="flag">09 · Azerbaijan</div>
+      <h3>Baku's skyline + Caucasus mountains</h3>
+      <div class="tag">3-hour flight from Mumbai. Modern Baku, ancient old town, fire temples.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹52–65K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹28–35K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹3.5K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">E-visa · $26</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">Apr–Jun, Sep–Oct</span></div>
+    </div>
+    <div class="country-card" style="border-top: 3px solid #00AEEF;">
+      <div class="flag">10 · Kazakhstan</div>
+      <h3>Almaty: visa-free wildcard</h3>
+      <div class="tag">Visa-free 14 days for Indians. Snowy mountains, Soviet-meets-modern Almaty, cheap.</div>
+      <div class="stat-row"><span class="k">Total (7 days)</span><span class="v">₹48–60K</span></div>
+      <div class="stat-row"><span class="k">Flight RT</span><span class="v">₹26–32K</span></div>
+      <div class="stat-row"><span class="k">Daily budget</span><span class="v">₹3K</span></div>
+      <div class="stat-row"><span class="k">Visa</span><span class="v">Visa-free 14 days</span></div>
+      <div class="stat-row"><span class="k">Best season</span><span class="v">May–Oct, Dec–Feb (ski)</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">02</span>Top 3 deep dives</h2>
+  <p class="lead">If you're picking just one trip this year, these three give you the best experience-per-rupee ratio.</p>
+
+  <h3>🇳🇵 Nepal — the cheapest passport-stamp you'll ever get</h3>
+  <div class="cost-card">
+    <table>
+      <thead><tr><th>Line item</th><th>Cost (INR)</th></tr></thead>
+      <tbody>
+        <tr><td>Round-trip flight Delhi → Kathmandu</td><td>₹10,000–14,000</td></tr>
+        <tr><td>Visa</td><td>FREE (Indians don't need one)</td></tr>
+        <tr><td>Accommodation · 6 nights (mid hostel/guesthouse)</td><td>₹4,800</td></tr>
+        <tr><td>Food (3 meals/day, mix of local + tourist)</td><td>₹4,200</td></tr>
+        <tr><td>Inter-city travel (bus to Pokhara + return)</td><td>₹2,000</td></tr>
+        <tr><td>Activities (Phewa lake boat, paragliding, temples)</td><td>₹3,500</td></tr>
+        <tr class="total"><td><strong>Total</strong></td><td><strong>₹24,500–28,500</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="pro-con">
+    <div class="pc-box pros"><h4>Why go</h4><ul>
+      <li>No visa, no SIM hassle (Indian SIM works in border areas), INR accepted almost everywhere</li>
+      <li>Annapurna circuit, EBC base treks for fit travellers — world-class hiking at backpacker prices</li>
+      <li>Pokhara is a chill 2-day stop with lake, paragliding, and bakeries</li>
+      <li>Cheap domestic flights inside Nepal (KTM → Pokhara is ₹4–5K and 25 min)</li>
+    </ul></div>
+    <div class="pc-box cons"><h4>Watch out for</h4><ul>
+      <li>Air pollution in Kathmandu Nov–Feb is genuinely bad — N95 mask recommended</li>
+      <li>Monsoon (Jun–Sep) = bad mountain views, landslides on roads</li>
+      <li>Earthquake risk is real; pick well-built hotels in tourist areas</li>
+      <li>Touristy areas like Thamel can feel like Goa-on-steroids — leave the bubble to see real Nepal</li>
+    </ul></div>
+  </div>
+
+  <h3>🇻🇳 Vietnam — the SE Asia trip everyone underrates</h3>
+  <div class="cost-card">
+    <table>
+      <thead><tr><th>Line item</th><th>Cost (INR)</th></tr></thead>
+      <tbody>
+        <tr><td>Round-trip flight Delhi/Mumbai → Hanoi or Saigon</td><td>₹20,000–26,000</td></tr>
+        <tr><td>E-visa (90-day, multiple-entry)</td><td>~₹2,200 ($25)</td></tr>
+        <tr><td>Accommodation · 6 nights (hostel/budget hotel)</td><td>₹6,000</td></tr>
+        <tr><td>Food (incredible street food, $2–4 meals)</td><td>₹4,500</td></tr>
+        <tr><td>Domestic travel (sleeper bus + 1 internal flight)</td><td>₹4,500</td></tr>
+        <tr><td>Activities (Halong cruise, Hoi An lantern boat, Cu Chi tunnels)</td><td>₹6,500</td></tr>
+        <tr class="total"><td><strong>Total</strong></td><td><strong>₹43,700–49,700</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="pro-con">
+    <div class="pc-box pros"><h4>Why go</h4><ul>
+      <li>Street food culture rivals Bangkok — pho, banh mi, bun cha, ca phe sua da</li>
+      <li>Three very different regions in one country: Halong Bay (north), Hoi An old town (centre), Saigon (south)</li>
+      <li>Excellent backpacker infrastructure — Sapa, Da Nang, Phong Nha caves all easy to reach</li>
+      <li>One of the safest SE Asian countries for solo travellers</li>
+    </ul></div>
+    <div class="pc-box cons"><h4>Watch out for</h4><ul>
+      <li>North to south is a long country — pick 2 regions max for a 7-day trip</li>
+      <li>Crossing roads in Hanoi/Saigon is a real skill (just walk slowly and don't stop)</li>
+      <li>Taxi scams at airports — use Grab app instead</li>
+      <li>Veg food exists but isn't as easy as Thailand — pure-veg travellers should plan</li>
+    </ul></div>
+  </div>
+
+  <h3>🇬🇪 Georgia — Europe at a third of the price</h3>
+  <div class="cost-card">
+    <table>
+      <thead><tr><th>Line item</th><th>Cost (INR)</th></tr></thead>
+      <tbody>
+        <tr><td>Round-trip flight Delhi/Mumbai → Tbilisi (often 1-stop)</td><td>₹28,000–34,000</td></tr>
+        <tr><td>E-visa (most Indians)</td><td>~₹1,700 ($20)</td></tr>
+        <tr><td>Accommodation · 6 nights (well-rated hostel)</td><td>₹6,500</td></tr>
+        <tr><td>Food (khinkali, khachapuri, wine — surprisingly cheap)</td><td>₹5,500</td></tr>
+        <tr><td>Marshrutka (van) to Kazbegi + return</td><td>₹1,500</td></tr>
+        <tr><td>Day tours (wine country, Mtskheta, paragliding)</td><td>₹6,000</td></tr>
+        <tr class="total"><td><strong>Total</strong></td><td><strong>₹49,200–55,200</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="pro-con">
+    <div class="pc-box pros"><h4>Why go</h4><ul>
+      <li>European vibe (cobbled old town, churches, wine country) without Schengen visa pain</li>
+      <li>One of the world's oldest wine traditions — vineyards in Kakheti for ₹500/tasting</li>
+      <li>Kazbegi day-trip rivals any Alps view at a fraction of the cost</li>
+      <li>Very Indian-friendly — large Indian student population in Tbilisi means familiar food easy to find</li>
+    </ul></div>
+    <div class="pc-box cons"><h4>Watch out for</h4><ul>
+      <li>Russia-Ukraine geopolitics — Georgia has been stable but always check MEA advisory</li>
+      <li>Long flights with 1 stop (Doha/Istanbul/Dubai) — direct options limited</li>
+      <li>English fluency lower outside Tbilisi; learn 5 Russian/Georgian phrases</li>
+      <li>Winters (Dec–Feb) are cold and many mountain roads close</li>
+    </ul></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">03</span>Side-by-side comparison</h2>
+  <table class="compare-table">
+    <thead>
+      <tr><th>Country</th><th>Total (7d)</th><th>Visa</th><th>Best for</th><th>Difficulty</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Nepal</td><td><span class="pill green">₹25–30K</span></td><td>None</td><td>Mountains, first-time international, budget</td><td><span class="pill green">Easy</span></td></tr>
+      <tr><td>Sri Lanka</td><td><span class="pill green">₹30–38K</span></td><td>ETA $50</td><td>Beaches, food, history, families</td><td><span class="pill green">Easy</span></td></tr>
+      <tr><td>Cambodia</td><td><span class="pill amber">₹38–46K</span></td><td>E-visa $30</td><td>History buffs, photographers, Angkor Wat</td><td><span class="pill amber">Mid</span></td></tr>
+      <tr><td>Vietnam</td><td><span class="pill amber">₹40–48K</span></td><td>E-visa $25</td><td>Food, culture, 2-week itineraries</td><td><span class="pill amber">Mid</span></td></tr>
+      <tr><td>Thailand</td><td><span class="pill amber">₹42–55K</span></td><td>Visa-free 60d</td><td>First international trip, beaches, nightlife</td><td><span class="pill green">Easy</span></td></tr>
+      <tr><td>Malaysia</td><td><span class="pill amber">₹45–55K</span></td><td>Visa-free 30d</td><td>City + island combo, multicultural food</td><td><span class="pill green">Easy</span></td></tr>
+      <tr><td>Kazakhstan</td><td><span class="pill amber">₹48–60K</span></td><td>Visa-free 14d</td><td>Off-beat, Soviet history, mountains, skiing</td><td><span class="pill amber">Mid</span></td></tr>
+      <tr><td>Georgia</td><td><span class="pill amber">₹50–62K</span></td><td>E-visa $20</td><td>Solo travellers, wine, European feel</td><td><span class="pill amber">Mid</span></td></tr>
+      <tr><td>Azerbaijan</td><td><span class="pill amber">₹52–65K</span></td><td>E-visa $26</td><td>Couples, photographers, short-haul exotic</td><td><span class="pill amber">Mid</span></td></tr>
+      <tr><td>Indonesia (Bali)</td><td><span class="pill red">₹55–70K</span></td><td>VoA $35</td><td>Beach + temple combo, yoga, surf</td><td><span class="pill green">Easy</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="verdict">
+  <h2 style="margin-top: 0;"><span class="num">04</span>The final ranking</h2>
+  <p class="lead">Based on cost, ease, safety, and experience-per-rupee for an Indian traveller in 2026.</p>
+
+  <div class="verdict-grid">
+    <div class="rank-num gold">1</div>
+    <div>
+      <h3>Nepal — for your first international trip ever</h3>
+      <p>Nothing else comes close on price. No visa, INR works, flights are cheap year-round, and you get genuine mountains. If you've never been abroad, start here — passport stamp, low risk, ₹25K out the door.</p>
+    </div>
+  </div>
+  <div class="verdict-grid">
+    <div class="rank-num silver">2</div>
+    <div>
+      <h3>Vietnam — for the best 10-day budget trip on this list</h3>
+      <p>If you've done Nepal/Sri Lanka and want a real "SE Asia trip" with food, culture, and varied landscapes, Vietnam beats Thailand on both price and authenticity. Hanoi → Halong → Hoi An is the perfect 10-day route.</p>
+    </div>
+  </div>
+  <div class="verdict-grid">
+    <div class="rank-num bronze">3</div>
+    <div>
+      <h3>Georgia — for the most underrated trip</h3>
+      <p>Cobblestone old town, wine country, snow-capped mountains, and the cheapest "European feeling" trip an Indian can take. Use it as a Schengen visa rehearsal — Georgia is great visa practice and stamps look great on a passport.</p>
+    </div>
+  </div>
+  <div class="verdict-grid">
+    <div class="rank-num">4</div>
+    <div>
+      <h3>Sri Lanka — for families &amp; relaxed beach trips</h3>
+      <p>English everywhere, sane prices, beaches + tea country + Sigiriya in 7 days. Best "second international" trip after Nepal. Don't go May–Sep (monsoon on the west/south coast).</p>
+    </div>
+  </div>
+  <div class="verdict-grid">
+    <div class="rank-num">5</div>
+    <div>
+      <h3>Thailand — for the classic, well-trodden first SE Asia</h3>
+      <p>Visa-free, easy, predictable. Bangkok + Krabi/Phuket = the safest, most-organised first SE Asia trip. Slightly more expensive than Vietnam now, but easier for nervous travellers.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">05</span>Plan-your-trip timeline</h2>
+  <p>From "I want to go" to "boarding pass on phone" — what to do, in order.</p>
+
+  <div class="timeline">
+    <div class="timeline-item"><div class="when">12 weeks out</div><div class="what"><strong>Pick the country, lock dates.</strong> Use Google Flights "Explore" view to spot the cheapest week. Cross-check with the destination's "best season" — avoid monsoons.</div></div>
+    <div class="timeline-item"><div class="when">10 weeks out</div><div class="what"><strong>Book the flight.</strong> Indian → SE Asia or Caucasus sweet spot is 8–10 weeks out. Use Skyscanner + ixigo + airline direct. Set Hopper-style price alerts.</div></div>
+    <div class="timeline-item"><div class="when">8 weeks out</div><div class="what"><strong>Apply for visa.</strong> E-visas take 3–7 working days. Don't leave it for 2 weeks before — Vietnam and Cambodia e-visa portals are notoriously slow.</div></div>
+    <div class="timeline-item"><div class="when">6 weeks out</div><div class="what"><strong>Book accommodation.</strong> Hostelworld for hostels, Agoda for hotels (often cheaper than Booking in Asia). Book the first 2 nights firmly, keep the rest flexible.</div></div>
+    <div class="timeline-item"><div class="when">4 weeks out</div><div class="what"><strong>Get the right credit/debit card.</strong> Get a 0% forex-markup card (IDFC, ICICI Coral) and a backup. Carry $200–300 in cash for emergencies. Inform your bank you're travelling.</div></div>
+    <div class="timeline-item"><div class="when">2 weeks out</div><div class="what"><strong>Travel insurance + eSIM.</strong> ICICI/Bajaj travel insurance for ₹500–800 for 7 days. Buy an Airalo or Holafly eSIM (₹500–800) — much cheaper than international roaming.</div></div>
+    <div class="timeline-item"><div class="when">3 days out</div><div class="what"><strong>Final checklist.</strong> Passport (6+ months validity), printed visa, hotel address printed (immigration may ask), Indian credit card with ₹50K+ limit, paracetamol/Imodium/ORS.</div></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">06</span>Money-saving hacks that actually work</h2>
+  <ol style="margin: 10px 0 18px 22px;">
+    <li style="margin-bottom: 8px;"><strong>Tuesday/Wednesday flights are 15–25% cheaper.</strong> Friday-Sunday flights from Indian metros are most expensive. Shift dates by 2 days and save ₹4–6K easily.</li>
+    <li style="margin-bottom: 8px;"><strong>Don't exchange INR at airports.</strong> Worst rates in the world. Use a 0% forex card at ATMs in the destination (₹200–300 ATM fee, but rate is mid-market).</li>
+    <li style="margin-bottom: 8px;"><strong>Skip hotel breakfast.</strong> Local breakfast costs ₹100–200; hotel buffet adds ₹600–1,200/day to your stay. Eat where locals eat.</li>
+    <li style="margin-bottom: 8px;"><strong>Use the Wise card or IDFC First Wealth.</strong> Both give near-bank exchange rates with no markup. Wise multi-currency account is gold for frequent travellers.</li>
+    <li style="margin-bottom: 8px;"><strong>Buy day-tours from local agencies, not online.</strong> Booking a Halong cruise from a Hanoi street agency is 30–40% cheaper than GetYourGuide.</li>
+    <li style="margin-bottom: 8px;"><strong>Public transit + ride-hail apps.</strong> Grab (SE Asia), Bolt (Georgia, Africa), Yandex (Central Asia, ME). Never take "taxi" from outside an airport without a price agreed up front.</li>
+  </ol>
+</section>
+
+<section class="footer-note">
+  <strong>About this report:</strong> Cost estimates are based on May 2026 INR rates, current flight pricing (Skyscanner aggregates from Indian metros), and field-tested budget benchmarks. Visa rules are accurate as of May 2026 but change frequently — verify on each country's official immigration portal before booking. Travel insurance is not optional; medical evacuation costs run into lakhs without it.
+  <br><br>
+  <strong>Honest caveat:</strong> "Cheapest" is relative. A solo backpacker can do Vietnam at ₹35K; a couple wanting beach resorts will spend ₹70K+ on the same country. These numbers target a mid-range solo or couple traveller. Add 30–40% if you want premium hotels.
+</section>
+
+</div>
+</body>
+</html>
